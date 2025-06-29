@@ -1,5 +1,6 @@
 .container {
-    width: 500px;
+    width: 90%;
+    max-width: 500px;
     margin: auto;
     margin-top: 100px;
     background-color: white;
@@ -86,4 +87,85 @@ p {
     text-align: center;
     font-size: 18px;
     color: #444;
+}
+
+/* Tablet view */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 25px 25px;
+        margin-top: 80px;
+    }
+
+    .container h1 {
+        font-size: 24px;
+    }
+
+    .container h2 {
+        font-size: 20px;
+    }
+
+    .container ul li {
+        font-size: 16px;
+        height: 50px;
+    }
+
+    .container button {
+        width: 160px;
+        height: 45px;
+        font-size: 18px;
+    }
+
+    .container .index {
+        font-size: 14px;
+    }
+
+    .name-input {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+/* Mobile view */
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 20px 15px;
+        margin-top: 60px;
+    }
+
+    .container h1 {
+        font-size: 20px;
+    }
+
+    .container h2 {
+        font-size: 18px;
+    }
+
+    .container ul li {
+        font-size: 15px;
+        height: 45px;
+        padding-left: 10px;
+    }
+
+    .container button {
+        width: 140px;
+        height: 42px;
+        font-size: 16px;
+    }
+
+    .container .index {
+        font-size: 13px;
+    }
+
+    .name-input {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    p {
+        font-size: 15px;
+    }
 }
