@@ -1,0 +1,13 @@
+*{
+  margin:0;
+}
+body {
+  height: 100vh;
+  background-image: url('../image.jpg');
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    font-family: 'poppins';
+
+}
